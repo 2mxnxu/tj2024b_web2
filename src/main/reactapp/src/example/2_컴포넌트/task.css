@@ -1,0 +1,21 @@
+.task {
+    
+    border: 1px solid;
+    font-size: 30px;
+    margin: 5px;
+    border-radius: 10px;
+
+  }
+  
+  .box {
+    display: flex;
+  }
+  
+  .inStock {
+    color: green;
+  }
+  
+  .outOfStock {
+    color: red;
+  }
+  

@@ -22,4 +22,10 @@ import Component2 from './example/1_동작구조/Component2.jsx'
 //root.render( <Component2 /> )
 
 import Example1 from './example/2_컴포넌트/Example1.jsx'
-root.render( <Example1/> )
+//root.render( <Example1/> )
+
+import Example2 from './example/2_컴포넌트/Example2.jsx'
+//root.render(<Example2/>)
+
+import Task from './example/2_컴포넌트/task.jsx'
+root.render(<Task/>)
