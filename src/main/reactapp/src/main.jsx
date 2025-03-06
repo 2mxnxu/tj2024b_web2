@@ -21,11 +21,20 @@ import Component1 from './example/1_동작구조/Component1.jsx'
 import Component2 from './example/1_동작구조/Component2.jsx'
 //root.render( <Component2 /> )
 
-import Example1 from './example/2_컴포넌트/Example1.jsx'
+//import Example1 from './example/2_컴포넌트/Example1.jsx'
 //root.render( <Example1/> )
 
-import Example2 from './example/2_컴포넌트/Example2.jsx'
+//import Example2 from './example/2_컴포넌트/Example2.jsx'
 //root.render(<Example2/>)
 
-import Task from './example/2_컴포넌트/task.jsx'
-root.render(<Task/>)
+//import Task from './example/2_컴포넌트/task.jsx'
+//root.render(<Task/>)
+
+// import Example1 from './example/3_훅/Example1.jsx'
+// root.render(<Example1/>)
+
+// import Example2 from './example/3_훅/Example2.jsx'
+// root.render(<Example2/>)
+
+import Example3 from './example/3_훅/Example3.jsx'
+root.render(<Example3/>)
