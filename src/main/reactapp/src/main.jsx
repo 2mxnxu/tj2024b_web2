@@ -39,5 +39,8 @@ import Component2 from './example/1_동작구조/Component2.jsx'
 // import Example3 from './example/3_훅/Example3.jsx'
 // root.render(<Example3/>)
 
-import Task from './example/3_훅/Task.jsx'
-root.render(<Task/>)
+// import Task from './example/3_훅/Task1.jsx'
+// root.render(<Task/>)
+
+import Task2 from './example/3_훅/Task2.jsx'
+root.render(<Task2/>)
