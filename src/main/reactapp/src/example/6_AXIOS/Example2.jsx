@@ -44,12 +44,12 @@ export default function Example2( props ){
                 <button type="button" onClick={ onPost }> 등록 </button>
             </form>
             <table>
-                <thead> <tr> <th> 번호 </th> <th> 작성자 </th> <th> 방문록내용 </th> <th> 비고 </th>  </tr></thead>
+                <thead><tr><th>번호</th><th>작성자</th><th>방문록내용</th><th>비고</th></tr></thead>
                 <tbody>
                     {
                         boards.map( ( board , index ) => {
                             return ( 
-                                <tr> 
+                                <tr key={board.num}>
                                     <td> { board.num }</td> 
                                     <td> { board.writer}</td> 
                                     <td> { board.content}</td> 
