@@ -5,6 +5,8 @@ import Read from './Read.jsx';
 import SideBar from './SideBar.jsx';
 import BookView from './BookView.jsx';
 import Update from './Update.jsx';
+import Reviewr from './Reviewr.jsx';
+import Reviewv from './Reviewv.jsx';
 
 import'./app.css'
 
@@ -19,6 +21,9 @@ export default function App(props){
                 <Route exact path="/read" element={<Read />} />{} 
                 <Route exact path="/book/:bno" element={<BookView />} />
                 <Route exact path="/update/:bno" element={<Update />} />
+                <Route exact path="/reviewr" element={<Reviewr />} />{}
+                <Route exact path="/reviewv" element={<Reviewv />} />{} 
+ 
             </Routes>
         </div>
     </BrowserRouter>
