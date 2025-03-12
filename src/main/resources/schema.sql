@@ -32,3 +32,22 @@ create table productsample(
     constraint primary key ( id )
 );
 -- ---------------------- ------ ---------------------------------- --
+drop TABLE if exists review;
+DROP TABLE IF EXISTS book;
+create table book(
+	bno int unsigned auto_increment ,
+    bname varchar(30) not null ,
+    bauthor varchar(20) not null ,
+    bintro varchar(100) not null ,
+    bpwd varchar(10) not null,
+    constraint primary key (bno)
+);
+
+create table review (
+    rno int unsigned auto_increment,
+    bno int unsigned,
+    rcontent varchar(1000) not null,
+    rpwd varchar(10) not null,
+    constraint primary key (rno),
+    constraint fk_book foreign key (bno) references book(bno) on delete cascade
+);

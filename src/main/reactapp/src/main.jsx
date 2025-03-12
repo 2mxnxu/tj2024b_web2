@@ -74,5 +74,8 @@ const root = createRoot( document.querySelector('#root') )
 // root.render(<Task/>)
 
 //day06 : 7_AXIOS2 App
-import App from'./example/7_AXIOS2/App.jsx'
-root.render(<App/>)
+// import App from'./example/7_AXIOS2/App.jsx'
+// root.render(<App/>)
+
+import App from './example/9_task_제출용/App.jsx'
+root.render(<App />)

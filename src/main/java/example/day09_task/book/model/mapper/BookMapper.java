@@ -1,6 +1,6 @@
-package example.day09_task.model.mapper;
+package example.day09_task.book.model.mapper;
 
-import example.day09_task.model.dto.BookDto;
+import example.day09_task.book.model.dto.BookDto;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;

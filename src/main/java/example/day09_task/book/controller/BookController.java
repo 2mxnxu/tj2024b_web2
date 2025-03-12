@@ -1,7 +1,7 @@
-package example.day09_task.controller;
+package example.day09_task.book.controller;
 
-import example.day09_task.model.dto.BookDto;
-import example.day09_task.service.BookService;
+import example.day09_task.book.model.dto.BookDto;
+import example.day09_task.book.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

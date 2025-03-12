@@ -1,7 +1,7 @@
-package example.day09_task.service;
+package example.day09_task.book.service;
 
-import example.day09_task.model.dto.BookDto;
-import example.day09_task.model.mapper.BookMapper;
+import example.day09_task.book.model.dto.BookDto;
+import example.day09_task.book.model.mapper.BookMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
