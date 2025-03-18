@@ -22,7 +22,7 @@ public class MemberController {
     private final MemberService memberService;
     // [1] 회원가입
     @PostMapping("/signup")
-    public boolean signUp(@RequestBody MemberDto memberDto){
+    public boolean signUp(MemberDto memberDto){ // multipart/form-data 사용시
         System.out.println("MemberController.signUp");
         System.out.println("MemberDto =" + memberDto);
         //return false;

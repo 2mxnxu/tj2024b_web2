@@ -11,6 +11,8 @@ import './index.css'
 
 // (*) index.html에 root DOM 가져오기.
 const root = createRoot( document.querySelector('#root') )
+import App from './example/components/App'
+root.render(<App/>);
 
 // day01 : '컴포넌트 만들기' 렌더링 
     // import 호출할컴포넌트명 from '경로/파일명(확장자)';
@@ -80,5 +82,5 @@ const root = createRoot( document.querySelector('#root') )
 // import App from './example/9_task_제출용/App.jsx'
 // root.render(<App />)
 
-import Example1 from './example/8_MUI/Example1'
-root.render(<Example1 />)
+// import Example1 from './example/8_MUI/Example1'
+// root.render(<Example1 />)
