@@ -61,3 +61,10 @@ CREATE TABLE member (
     mimg  VARCHAR(255) DEFAULT NULL,        -- 프로필 이미지 URL
     CONSTRAINT PRIMARY KEY(mno)
 );
+--------------------------------------------------------------------------------
+DROP TABLE IF EXISTS day11products;
+CREATE TABLE day11products (
+product_id INT PRIMARY KEY AUTO_INCREMENT, -- 상품 ID (자동 증가)
+product_name VARCHAR(255) NOT NULL,        -- 상품명
+stock_quantity INT NOT NULL
+);
