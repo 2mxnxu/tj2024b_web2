@@ -68,3 +68,10 @@ product_id INT PRIMARY KEY AUTO_INCREMENT, -- 상품 ID (자동 증가)
 product_name VARCHAR(255) NOT NULL,        -- 상품명
 stock_quantity INT NOT NULL
 );
+-- ---------------------- day13 ---------------------------------- --
+DROP TABLE if EXISTS day13users;
+CREATE TABLE day13users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    money INT UNSIGNED DEFAULT 0
+);

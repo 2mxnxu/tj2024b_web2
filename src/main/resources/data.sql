@@ -42,3 +42,7 @@ INSERT INTO day11products (product_name, stock_quantity) VALUES
 ('게이밍 키보드', 30),
 ('기계식 마우스', 8),
 ('휴대용 충전기', 15);
+----------------------------------------------------------------
+INSERT INTO day13users (name, money) VALUES
+('서장훈', 500000),
+('신동엽', 300000);
